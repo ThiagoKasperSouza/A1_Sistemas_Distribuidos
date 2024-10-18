@@ -9,20 +9,24 @@ Deno.test(function isEvenNegTest() {
   assertEquals(isEven(-2), 1);
 });
 
-Deno.test(function isEvenZeroTest() {
-  assertEquals(isEven(2), 1);
+Deno.test(function isOddPosTest() {
+  assertEquals(isEven(3), 1);
+});
+
+Deno.test(function isOddNegTest() {
+  assertEquals(isEven(-7), 1);
 });
 
 
 Deno.test(function isEvenCharTest() {
-  assertEquals(isEven(2), 1);
+  assertEquals(isEven(Number("asasa")), -1);
 });
 
 Deno.test(function isEvenFrationTest() {
-  assertEquals(isEven(2), 1);
+  assertEquals(isEven(2/4), -1);
 });
 
 Deno.test(function isEvenFloatTest() {
-  assertEquals(isEven(2), 1);
+  assertEquals(isEven(2.54), -1);
 });
 
