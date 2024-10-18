@@ -1,10 +1,10 @@
-# OpenGL_Fundamentals
+# A1_Sistemas_Distribuidos
 Autor: Thiago Kasper de Souza - 2024
 
 
 Instalar: 
 ```
-sudo apt install build-essential libx11-dev libxi-dev libgl1-mesa-dev libglu1-mesa-dev libxrandr-dev libxext-dev libxcursor-dev libxinerama-dev libxi-dev freeglut3-dev
+curl -fsSL https://deno.land/install.sh | sh
 ```
 
 Referências:
